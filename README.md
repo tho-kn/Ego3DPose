@@ -6,7 +6,7 @@ This repository contains codes for training and testing the method in the [paper
 ## Citation
 ```
 @inproceedings{kang2023ego3dpose,
-    	author = {Taeho, Kang and Kyungjin, Lee and Jinrui, Zhang, and Youngki, Lee},
+    	author = {Kang, Taeho and Lee, Kyungjin and Zhang, Jinrui and Lee, Youngki},
         title = {Ego3DPose: Capturing 3D Cues from Binocular Egocentric Views},
     	year = {2023},
         isbn = {9798400703157},
