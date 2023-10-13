@@ -1,6 +1,10 @@
 # Ego3DPose: Capturing 3D Cues from Binocular Egocentric Views (SIGGRAPH Asia 2023)
 ![img](teaser/teaser.png)
 
+https://github.com/tho-kn/Ego3DPose/assets/54742258/c21c7f8f-2576-4493-be21-bea6f9d27575
+
+https://github.com/tho-kn/Ego3DPose/assets/54742258/ebb27741-6dce-4f91-9686-35d1592c0a51
+
 This repository contains codes for training and testing the method in the [paper](https://arxiv.org/abs/2309.11962).
 
 ## Citation
@@ -78,7 +82,7 @@ You can also train the method with the following script.
 
         bash scripts/train/egoglass/egoglass.sh
 
-UnrealEgo and EgoGlass without its body part branch can be experimented in the [UnrealEgo](https://github.com/hiroyasuakada/UnrealEgo) repository.
+UnrealEgo and EgoGlass without its body part branch can be experimented in the [UnrealEgo](https://github.com/hiroyasuakada/UnrealEgo) repository
 
 ## License Terms
 Permission is hereby granted, free of charge, to any person or company obtaining a copy of this software and associated documentation files (the "Software") from the copyright holders to use the Software for any non-commercial purpose. Publication, redistribution and (re)selling of the software, of modifications, extensions, and derivates of it, and of other software containing portions of the licensed Software, are not permitted. The Copyright holder is permitted to publically disclose and advertise the use of the software by any licensee.
