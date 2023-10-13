@@ -1,5 +1,3 @@
-
-https://github.com/tho-kn/Ego3DPose/assets/54742258/9006936a-fe06-4dbe-baad-02bf44aba017
 # Ego3DPose: Capturing 3D Cues from Binocular Egocentric Views (SIGGRAPH Asia 2023)
 ![img](teaser/teaser.png)
 
