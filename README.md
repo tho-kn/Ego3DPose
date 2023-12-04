@@ -1,9 +1,7 @@
 # Ego3DPose: Capturing 3D Cues from Binocular Egocentric Views (SIGGRAPH Asia 2023)
 ![img](teaser/teaser.png)
 
-https://github.com/tho-kn/Ego3DPose/assets/54742258/c21c7f8f-2576-4493-be21-bea6f9d27575
-
-https://github.com/tho-kn/Ego3DPose/assets/54742258/ebb27741-6dce-4f91-9686-35d1592c0a51
+https://github.com/tho-kn/Ego3DPose/assets/54742258/00095363-e20a-41c4-8c55-dbc04d222a40
 
 This repository contains codes for training and testing the method in the [paper](https://arxiv.org/abs/2309.11962).
 
