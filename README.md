@@ -30,7 +30,7 @@ series = {SA '23}
 
 ## Reprocessing
 After downloading UnrealEgo dataset following instructions in [UnrealEgo](https://github.com/hiroyasuakada/UnrealEgo) repository, reprocess the dataset for our code.
-reprocess_unrealego_data.py script parse metadata and process 2D and 3D pose data for Ego3DPose.
+```reprocess_unrealego_data.py``` parse metadata and process 2D and 3D pose data for Ego3DPose.
 
         python reprocess_unrealego_data.py
 
