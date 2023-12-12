@@ -3,27 +3,30 @@
 
 https://github.com/tho-kn/Ego3DPose/assets/54742258/00095363-e20a-41c4-8c55-dbc04d222a40
 
-This repository contains codes for training and testing the method in the [paper](https://arxiv.org/abs/2309.11962).
+This repository contains codes for training and testing the method.
+
+### [[arXiv]](https://arxiv.org/abs/2309.11962) [[ACM]](https://dl.acm.org/doi/10.1145/3610548.3618147)
 
 ## Citation
 ```
-@inproceedings{kang2023ego3dpose,
-    	author = {Kang, Taeho and Lee, Kyungjin and Zhang, Jinrui and Lee, Youngki},
-        title = {Ego3DPose: Capturing 3D Cues from Binocular Egocentric Views},
-    	year = {2023},
-        isbn = {9798400703157},
-        publisher = {Association for Computing Machinery},
-        address = {New York, NY, USA},
-        url = {https://doi.org/10.1145/3610548.3618147},
-        doi = {10.1145/3610548.3618147},
-    	booktitle = {SIGGRAPH Asia 2023 Conference Papers},
-        keywords = {Egocentric, 3D Human Pose Estimation, Stereo vision, Heatmap},
-        location = {Sydney, Australia},
-        series = {SA '23}
+@inproceedings{10.1145/3610548.3618147,
+author = {Kang, Taeho and Lee, Kyungjin and Zhang, Jinrui and Lee, Youngki},
+title = {Ego3DPose: Capturing 3D Cues from Binocular Egocentric Views},
+year = {2023},
+isbn = {9798400703157},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3610548.3618147},
+doi = {10.1145/3610548.3618147},
+abstract = {We present Ego3DPose, a highly accurate binocular egocentric 3D pose reconstruction system. The binocular egocentric setup offers practicality and usefulness in various applications, however, it remains largely under-explored. It has been suffering from low pose estimation accuracy due to viewing distortion, severe self-occlusion, and limited field-of-view of the joints in egocentric 2D images. Here, we notice that two important 3D cues, stereo correspondences, and perspective, contained in the egocentric binocular input are neglected. Current methods heavily rely on 2D image features, implicitly learning 3D information, which introduces biases towards commonly observed motions and leads to low overall accuracy. We observe that they not only fail in challenging occlusion cases but also in estimating visible joint positions. To address these challenges, we propose two novel approaches. First, we design a two-path network architecture with a path that estimates pose per limb independently with its binocular heatmaps. Without full-body information provided, it alleviates bias toward trained full-body distribution. Second, we leverage the egocentric view of body limbs, which exhibits strong perspective variance (e.g., a significantly large-size hand when it is close to the camera). We propose a new perspective-aware representation using trigonometry, enabling the network to estimate the 3D orientation of limbs. Finally, we develop an end-to-end pose reconstruction network that synergizes both techniques. Our comprehensive evaluations demonstrate that Ego3DPose outperforms state-of-the-art models by a pose estimation error (i.e., MPJPE) reduction of 23.1\% in the UnrealEgo dataset. Our qualitative results highlight the superiority of our approach across a range of scenarios and challenges.},
+booktitle = {SIGGRAPH Asia 2023 Conference Papers},
+articleno = {82},
+numpages = {10},
+keywords = {3D Human Pose Estimation, Stereo vision, Egocentric, Heatmap},
+location = {, Sydney, NSW, Australia, },
+series = {SA '23}
 }
 ```
-
-The citation will be updated once it is uploaded to ACM library.
 
 ## Reprocessing
 After downloading UnrealEgo dataset following instructions in [UnrealEgo](https://github.com/hiroyasuakada/UnrealEgo) repository, reprocess the dataset for our code.
