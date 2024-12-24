@@ -48,14 +48,14 @@ You can install required packages with requirements.txt
 
 ### Training
 
-You can train the models from scratch or use [trained weights](https://drive.google.com/drive/folders/1cjE-WPOqP62XjZkE7vJ7llVX3Fzsu2AR?usp=drive_link). The model weights will be saved in `./log/(experiment_name)`.
+You can train the models from scratch or use [trained weights](https://github.com/tho-kn/Ego3DPose/releases/tag/v1.0.0). The model weights will be saved in `./log/(experiment_name)`.
 
 #### Heatmap
 
         bash scripts/train/ego3dpose_heatmap_shared/ego3dpose_heatmap_shared_pos.sh
         bash scripts/train/ego3dpose_heatmap_shared/ego3dpose_heatmap_shared_sin.sh
 
-please specify the path to the UnrealEgo dataset in '--data_dir'.
+Please specify the path to the UnrealEgo dataset in '--data_dir'.
         
 #### AutoEncoder 
 
