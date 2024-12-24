@@ -74,7 +74,7 @@ This will also output result summary as a text file, which can be used for ploti
 ### Comparison Method
 
 We also provide our implementation of a previous work, EgoGlass with its body part branch.
-We uploaded the weights in the [trained weights](https://drive.google.com/drive/folders/1cjE-WPOqP62XjZkE7vJ7llVX3Fzsu2AR?usp=drive_link).
+We uploaded the weights in the [trained weights](https://github.com/tho-kn/Ego3DPose/releases/tag/EgoGlass).
 You can test with pretrained weight with the following script.
 
         bash scripts/test/egoglass/egoglass.sh
